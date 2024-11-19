@@ -131,6 +131,7 @@ button{
     align-items: center;
     gap: 0.6em;
     font-size: 15px;
+    cursor: pointer;
 
   }
   
@@ -203,6 +204,42 @@ section.oferecemos{
     background-color: #fff;
 }
 
+section.oferecemos .flex{
+    gap: 60px;
+}
+
+
+.oferecemos .oferecemos-box{
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #A24681;
+    margin-top: 45px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.oferecemos .oferecemos-box:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 20px #330730;
+}
+
+.oferecemos .oferecemos-box i{
+    font-size: 70px;
+    color: #A24681;
+}
+
+.oferecemos .oferecemos-box p{
+    font-size: 18px;
+    color: black;
+}
+
+.oferecemos .oferecemos-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+
+}
+
 h2.titulo2{
     text-align: center;
     font-size: 50px;
@@ -219,11 +256,25 @@ h2.titulo2 span{
     font-size: 25px;
 }
 
-.p2{
-    color: #111;
-}
 
 /* FIM SECTION 2 */
+
+
+/* SECTION 3 */
+
+section .sobre{
+    padding: 40px 4%;
+}
+
+.sobre .txt-sobre{
+
+}
+
+.sobre .img-sobre{
+    margin-top: 20px;
+}
+
+/* FIM SECTIOPN 3*/
  
 
 
