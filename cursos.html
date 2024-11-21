@@ -23,7 +23,7 @@
         }
     </style>
     <!--FIM-->
-    <title>Matricule-se!</title>
+    <title>Cursos</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" href="imagens/logo-minimalista.png">
 </head>
@@ -41,7 +41,7 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="sobre.html">Sobre Nós</a></li>
-                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="projetos.html">Projeto</a></li>
                     <li><a href="cursos.html">Cursos</a></li>
                     <li><a href="contato.html">Contato</a></li>
                 </ul>
@@ -55,23 +55,48 @@
         </div>
     </header>
 
-    <section class="formulario">
-         <div class="main">
-            <h2>FAÇA SUA MATRICULA</h2>
-        </div>
-        <div class="interface">
-           <form action="">
-            <input type="text" name="" id="" placeholder="Nome completo:" required>
-            <input type="date" name="" id="" placeholder="Data de Nascimento:" required>
-            <input type="text" name="" id="" placeholder="CPF:" required>
-            <input type="text" name="" id="" placeholder="Nacionalidade:" required>
-            <input type="text" name="" id="" placeholder="Naturalidade:" required>
-            <input type="text" name="" id="" placeholder="Email:" required>
-            <input type="text" name="" id="" placeholder="Telefone:" required>
-            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-           </form>
-        </div>
-    </section>
+        <section class="cursos-container">
+            <h2>Cursos Técnicos EAD</h2>
+            <div class="categorias">
+               <li> <a href="cursos.html"><span>Indústria e Comércio</span></a></li>
+               <li> <a href="administracao.html"><span>Administração e Negócios</span></a></li>
+               <li> <a href="turismo.html"><span>Turismo e Eventos</span></a></li>
+               <li> <a href="meioambi.html"><span>Meio Ambiente e Recursos Naturais</span></a></li>
+            </div>
+ 
+            <div class="cursos">
+                <!-- Curso 1 -->
+                <div class="curso-card">
+                    <img src="imagens/logistica.jpg" alt="">
+                    <h3>Curso Técnico em Logística</h3>
+                  
+                    <p>Capacitação em gestão de transportes e suprimentos.</p>
+                    <button>Inscreva-se </button>
+                </div>
+ 
+                <!-- Curso 3 -->
+                <div class="curso-card">
+                    <img src="imagens/tecnico-em-seguranca-do-trabalho.jpg" alt="">
+                    <h3>Curso Técnico em Segurança do Trabalho</h3>
+                    <p>Treinamento para práticas seguras no trabalho e uso de EPIs.</p>
+                    <button>Inscreva-se</button>
+                </div>
+                    <div class="curso-card">
+                        <img src="imagens/" alt="">
+                        <h3>Curso Técnico em mecânica </h3>
+                        <p>Treinamento para práticas seguras no trabalho e uso de EPIs.</p>
+                        <button>Inscreva-se</button>
+                </div>
+
+                <div class="curso-card">
+                    <img src="imagens/engenheiro.jpg" alt="">
+                    <h3>Curso Técnico em eletrônica</h3>
+                    <p>Treinamento para práticas seguras no trabalho e uso de EPIs.</p>
+                    <button>Inscreva-se</button>
+            </div>
+            
+        </section>
+    </main>
 
     <footer>
         <div id="footer_contend">
@@ -134,6 +159,5 @@
         </div>
        
     </footer>
-    
 </body>
 </html>
